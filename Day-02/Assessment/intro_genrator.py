@@ -11,7 +11,7 @@ else:
     print("The name is not Raj")
 
 #using f-string
-print(f"Hellow my name is {name}. I'm {age} years old and I live in {city.upper()}")
+print(f"Hellow my name is {name.title()}. I'm {age} years old and I live in {city.upper()}")
 print(f"Lengt of the name is {len(name)}")
 if "raj" in name.lower():
     print("The name includes the word 'RAJ'")
